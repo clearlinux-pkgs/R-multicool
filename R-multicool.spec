@@ -4,14 +4,13 @@
 #
 Name     : R-multicool
 Version  : 0.1.10
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/multicool_0.1-10.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/multicool_0.1-10.tar.gz
 Summary  : Permutations of Multisets in Cool-Lex Order
 Group    : Development/Tools
 License  : GPL-2.0
 Requires: R-multicool-lib = %{version}-%{release}
-Requires: R-Rcpp
 BuildRequires : R-Rcpp
 BuildRequires : buildreq-R
 
@@ -35,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552777690
+export SOURCE_DATE_EPOCH=1552948515
 
 %install
-export SOURCE_DATE_EPOCH=1552777690
+export SOURCE_DATE_EPOCH=1552948515
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
