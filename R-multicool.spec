@@ -4,7 +4,7 @@
 #
 Name     : R-multicool
 Version  : 0.1.12
-Release  : 27
+Release  : 28
 URL      : https://cran.r-project.org/src/contrib/multicool_0.1-12.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/multicool_0.1-12.tar.gz
 Summary  : Permutations of Multisets in Cool-Lex Order
